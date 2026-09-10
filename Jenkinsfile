@@ -9,8 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'YOUR_GITHUB_REPOSITORY_URL'
+               echo 'Code already checked out from GitHub by Jenkins SCM configuration' 
             }
         }
 
